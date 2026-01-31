@@ -9,7 +9,6 @@
   "files": [
     "bin.js",
     "packages/cli/src",
-    "packages/cli/package.json",
     "packages/website/docs"
   ],
   "scripts": {

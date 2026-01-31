@@ -6,7 +6,7 @@
 import { BunContext, BunRuntime } from "@effect/platform-bun"
 import { Console, Effect, Layer, pipe } from "effect"
 import pc from "picocolors"
-import pkg from "./packages/cli/package.json" with { type: "json" }
+import pkg from "./package.json" with { type: "json" }
 import { EffectSolutionsService, GitService } from "./packages/cli/src/effect-solutions-service"
 import { BrowserService, IssueService } from "./packages/cli/src/open-issue-service"
 import { UpdateNotifier, UpdateNotifierConfig } from "./packages/cli/src/update-notifier"
