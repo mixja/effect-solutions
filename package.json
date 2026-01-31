@@ -12,9 +12,6 @@
     "packages/cli/package.json",
     "packages/website/docs"
   ],
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "dev": "bun --cwd packages/website dev",
     "dev:cli": "bun --cwd packages/cli dev",
